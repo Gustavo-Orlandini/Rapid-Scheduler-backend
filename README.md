@@ -52,6 +52,8 @@ The application uses environment variables stored in a `.env` file for configura
 - `APP_ENV`: Defines the environment mode (`development`, `production`). Default is `production`.
 - `DEBUG`: Enables or disables debug mode (`true` or `false`).
 
+
+
 ### JSON Data File
 All available slots and bookings are stored in `app/slots.json`. Ensure the file exists and follows the structure below:
 
@@ -64,21 +66,3 @@ All available slots and bookings are stored in `app/slots.json`. Ensure the file
         "reserved": false
     }
 ]
-
-### Project Structure
-
-project/
-│
-├── app/
-│   ├── main.py           # Entry point for the FastAPI application
-│   ├── models.py         # Pydantic models for data validation
-│   ├── routes/           # API route definitions
-│   │   ├── bookings.py   # Booking-related endpoints
-│   │   ├── slots.py      # Slot-related endpoints
-│   ├── slots.json        # JSON file for storing slot data
-│   ├── utils.py          # Utility functions for JSON handling
-│
-├── venv/                 # Virtual environment directory
-├── requirements.txt      # List of Python dependencies
-├── .env                  # Environment variables
-└── README.md             # Project documentation
