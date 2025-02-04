@@ -32,7 +32,7 @@ This project is a Python-based application that utilizes a virtual environment f
 1. Ensure the virtual environment is activated.
 2. Run the application using:
     ```sh
-    python main.py
+    python -m uvicorn app.main:app --reload
     ```
 
 ## Configuration
