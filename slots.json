@@ -3,7 +3,7 @@
         "id": 1,
         "start_time": "2025-02-04T09:00:00.000Z",
         "end_time": "2025-02-04T10:00:00.000Z",
-        "reserved": false
+        "reserved": true
     },
     {
         "id": 2,
